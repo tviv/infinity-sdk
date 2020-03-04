@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Infinity SDK Demo</string>
+    <string name="title_example_list">Infinity SDK Examples</string>
+    <string name="title_example_detail">Example Detail</string>
+</resources>

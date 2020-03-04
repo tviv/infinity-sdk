@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".impl.ExampleButtonDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add to your project:"/>
+        <TextView
+            android:id="@+id/example_gradletext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/textAppearanceSmall"
+            android:textColor="@color/colorExampleTextBackground"
+            android:padding="8dp"
+            android:layout_marginBottom="@dimen/text_margin"
+            android:textIsSelectable="true"
+            android:text="implementation 'foxifinder.infinity:sdk:1.0.0'"
+            />
+
+        <include layout="@layout/example_detail_exampletext"
+            />
+    </LinearLayout>
+</LinearLayout>
